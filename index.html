@@ -4,46 +4,54 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Front-End Mentor | Meet Landing Page</title>
+    <link rel="stylesheet" href="/Design/reset.css">
+    <link rel="stylesheet" href="/Design/mobile.css">
+    <link rel="stylesheet" href="/Design/tablet.css">
+    <link rel="stylesheet" href="/Design/desktop.css">
 </head>
 <body>
     <header>
-        <img src="/Assets/logo.svg" alt="Logo do Site">
+        <img class="logo" src="/Assets/logo.svg" alt="Logo do Site">
     </header>
     <main>
-        <div class="Img__mobile-tablet">
+        <div class="img__mobile">
+            <img src="Assets/mobile/combined-image-mobile.svg" alt="Imagem de pessoas">
+        </div>
+        <div class="img__tablet">
             <img src="Assets/tablet/image-hero.png" alt="Imagem de pessoas">
         </div>
         <div class="img__desktop">
             <img src="/Assets/desktop/image-hero-left.png" alt="Imagem de pessoas na esquerda">
             <img src="/Assets/desktop/image-hero-right.png" alt="Imagem das pessoas na direita">
         </div>
-        <div class="conteudo__primario"></div>
+        <div class="conteudo__primario">
             <h1 class="primario__titulo">Group Chat for Everyone</h1>
-            <p class="primario__texto">Meet makes it easy with others face-to-face</p>
+            <p class="primario__texto">Meet makes it easy with others face-to-face virtually and collaborate across any device.</p>
             <a class="primario__download" href="#">Download <span class="download__destaque">v1.3</span></a>
-            <a  class="primario__what" href="#"></a>
+            <a class="primario__what" href="#">What is it?</a>
         </div>
 
         <div class="conteudo__secundario">
             <p class="linha"></p>
             <p class="bola">01</p>
             <div class="secundario__img">
-                <img src="/Assets/desktop/image-woman-in-videocall.jpg" alt="Mulher em video-chamada">
-                <img src="/Assets/desktop/image-women-videochatting.jpg" alt="Mulheres em video-chamada">
-                <img src="/Assets/desktop/image-men-in-meeting.jpg" alt="Homens em video-chamada">
-                <img src="/Assets/desktop/image-man-texting.jpg" alt="Homem mexendo no celular">
+                <img class="img1" src="/Assets/desktop/image-woman-in-videocall.jpg" alt="Mulher em video-chamada">
+                <img class="img2" src="/Assets/desktop/image-women-videochatting.jpg" alt="Mulheres em video-chamada">
+                <img class="img3" src="/Assets/desktop/image-men-in-meeting.jpg" alt="Homens em video-chamada">
+                <img class="img4" src="/Assets/desktop/image-man-texting.jpg" alt="Homem mexendo no celular">
             </div>
             <h3 class="secundario__subtitulo">Built for Modern Use</h3>
             <h2 class="secundario__titulo">Smater meetings, all in one place</h2>
             <p class="secundario__texto">Send messages, share files, show your screen, and record your meetings - all in one workspace. Control who can join with invite-only team acess, data encryption, and data export.</p>
         </div>
+        <div class="secundario__bola">
+            <img src="/Assets/mobile/number.png" alt="">
+        </div>
     </main>
     <footer>
-        <p class="secundario__linha"></p>
-        <p class="secundario__bola">02</p>
         <div class="conteudo__footer">
             <h2 class="footer__titulo">Experience more together</h2>
-            <p class="footer__texto"></p>
+            <p class="footer__texto">Stay connected with reliable HD meetings and unlimited one-on-one and group video sessions.</p>
             <a class="footer__link" href="#">Download <span class="link__destaque">v1.3</span></a>
         </div>
     </footer>
