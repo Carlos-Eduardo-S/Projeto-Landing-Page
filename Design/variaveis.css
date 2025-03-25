@@ -1,0 +1,21 @@
+/* Importações */
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+
+/* Variáveis */
+:root {
+    /* Cores */
+    --cyan-300: #8FE3F9;
+    --cyan-600: #4D96A9;
+
+    --purple-300: #D9B8FF;
+    --purple-600: #855FB1;
+
+    --slate-300: #D1D1DF;
+    --slate-600: #87879D;
+    --slate-900: #28283D;
+
+    --white: #FAFAFA;
+
+    /* Fontes */
+    --red-hat: "Red Hat Display", sans-serif;
+}
