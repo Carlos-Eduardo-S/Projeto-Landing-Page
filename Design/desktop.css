@@ -1,0 +1,244 @@
+/* Importações */
+@import url(/Design/variaveis.css);
+
+/* Estilização Desktop */
+@media screen and (min-width: 48.1rem) {
+    body {
+        font-family: var(--red-hat);
+        font-size: 1.125rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    /* Estilização do Header */
+    header {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 5rem;
+    }
+
+    /* Estilização do Conteudo Primário */
+    .img__mobile {
+        display: none;
+    }
+
+    .img__tablet {
+        display: none;
+    }
+
+    .conteudo__inicial {
+        display: grid;
+        padding-top: 5.438rem;
+        height: 350px;
+    }
+
+    .img__desktop-esq {
+        grid-column: 1;
+        grid-row: 1;
+        align-self: start;
+    }
+
+    .conteudo__centro {
+        grid-column: 2;
+        grid-row: 1;
+        align-self: center;
+    }
+
+    .img__desktop-dir {
+        grid-column: 3;
+        grid-row: 1;
+        margin-top: 10px;
+        align-self: end;
+    }
+
+    .conteudo__primario {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .primario__titulo {
+        font-size: 4rem;
+        font-weight: 900;
+        color: var(--slate-900);
+        padding: 0 9rem 1.5rem 9rem;
+        text-align: center;
+    }
+
+    .primario__texto {
+        font-size: 1.225rem;
+        font-weight: 600;
+        line-height: 30px;
+        color: var(--slate-600);
+        text-align: center;
+        padding: 0 7rem 1.5rem 7rem;
+        padding-bottom: 1.5rem;
+    }
+
+    .primario__link {
+        display: flex;
+        gap: 1.063rem;
+        align-items: center;
+    }
+
+    .primario__download {
+        text-decoration: none;
+        font-size: 1rem;
+        font-weight: 900;
+        color: var(--white);
+        background-color: var(--cyan-600);
+        padding: 1rem 2.5rem;
+        border-radius: 29px;
+        margin-bottom: 1rem;
+    }
+
+    .download__destaque {
+        color: var(--cyan-300);
+        font-weight: 900;
+    }
+    
+    .primario__what {
+        text-decoration: none;
+        font-size: 1rem;
+        font-weight: 900;
+        color: var(--white);
+        background-color: var(--purple-600);
+        padding: 1rem 2.5rem;
+        border-radius: 29px;
+        margin-bottom: 1rem;
+    }
+
+    /* Estilização do Conteúdo Secundário */
+    .primario__bola {
+        display: flex;
+        justify-content: center;
+        padding-top: 3.375rem;
+    }
+
+    .secundario__img {
+        justify-content: center;
+        justify-self: center;
+        width: 70rem;
+        display: grid;
+        gap: 1.5rem;
+        padding-bottom: 4rem;
+        padding-top: 4rem;
+        padding: 4rem 2.75rem 4rem 2.75rem;
+    }
+
+    .img1 {
+        grid-column: 1;
+        grid-row: 1;
+        width: 16rem;
+        border-radius: 8px;
+    }
+
+    .img2 {
+        grid-column: 2;
+        grid-row: 1;
+        width: 16rem;
+        border-radius: 8px;
+    }
+
+    .img3 {
+        grid-column: 3;
+        grid-row: 1;
+        width: 16rem;
+        border-radius: 8px;
+    }
+
+    .img4 {
+        grid-column: 4;
+        grid-row: 1;
+        width: 16rem;
+        border-radius: 8px;
+    }
+
+    .secundario__subtitulo {
+        text-transform: uppercase;
+        text-align: center;
+        font-size: 1rem;
+        font-weight: 600;
+        color: var(--cyan-600);
+        padding-bottom: 1rem;
+    }
+
+    .secundario__titulo {
+        font-size: 2.5rem;
+        font-weight: 900;
+        color: var(--slate-900);
+        text-align: center;
+        padding: 0 32.094rem 2rem 32.094rem;
+    }
+
+    .secundario__texto {
+        font-size: 1.125rem;
+        font-weight: 600;
+        color: var(--slate-600);
+        text-align: center;
+        padding: 0 28rem 4rem 28rem;
+    }
+
+    .secundario__bola {
+        display: flex;
+        justify-content: center;
+        position: relative;
+    }
+
+    /* Estilização do Footer */
+
+    footer {
+        background-image: linear-gradient(rgba(77, 150, 168, 0.8), rgba(77, 150, 168, 0.8)), url(/Assets/desktop/image-footer.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        width: 100vw;
+        margin-top: -31px;
+    }
+
+    .conteudo__footer {
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        padding: 7rem 9rem;
+    }
+
+    .footer__titulo {
+        font-size: 2.5rem;
+        font-weight: 900;
+        color: var(--white);
+        text-align: start;
+        width: 27.813rem;
+    }
+
+    .footer__texto {
+        text-align: start;
+        color: var(--white);
+        line-height: normal;
+        width: 22.188rem;
+    }
+
+    .footer__link {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0.16rem;
+        width: 12.063rem;
+        height: 3.5rem;
+        text-decoration: none;
+        font-size: 1rem;
+        font-weight: 900;
+        color: var(--white);
+        background-color: var(--purple-600);
+        border-radius: 1.813rem;
+        margin-left: 3.938rem;
+    }
+
+    .link__destaque {
+        color: var(--purple-300);
+        font-weight: 900;
+    }
+}
